@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import Logo from "../Navbar/Logo";
 
@@ -8,10 +9,30 @@ const Footer = () => {
 				<div className="flex flex-wrap gap-y-10 justify-between">
 					<Logo />
 					<div className="flex gap-14 items-center">
-						<img src="/assets/whatsapp.png" alt="Whatsapp" />
-						<img src="/assets/linkedin.png" alt="Linkedin" />
-						<img src="/assets/twitter.png" alt="Twitter" />
-						<img src="/assets/instagram.png" alt="Instagram" />
+						<Image
+							width={24}
+							height={24}
+							src="/assets/whatsapp.png"
+							alt="Whatsapp"
+						/>
+						<Image
+							width={24}
+							height={24}
+							src="/assets/linkedin.png"
+							alt="Linkedin"
+						/>
+						<Image
+							width={24}
+							height={24}
+							src="/assets/twitter.png"
+							alt="Twitter"
+						/>
+						<Image
+							width={24}
+							height={24}
+							src="/assets/instagram.png"
+							alt="Instagram"
+						/>
 					</div>
 				</div>
 				<div className="flex flex-wrap gap-y-10 justify-between mt-10">
