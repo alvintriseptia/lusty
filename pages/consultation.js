@@ -5,7 +5,7 @@ import {
 	Footer,
 	HeroTemplate,
 	LayoutConsultation,
-} from "../Components/index";
+} from "../components/index";
 
 export default function Consultation() {
 	return (

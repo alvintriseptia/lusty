@@ -7,7 +7,7 @@ import {
 	Background,
 	Founder,
 	Reference,
-} from "../Components/index";
+} from "../components/index";
 
 export default function About() {
 	return (

@@ -12,7 +12,7 @@ import {
 	FAQ,
 	Article,
 	Footer,
-} from "../Components/index";
+} from "../components/index";
 
 export default function Home() {
 	return (

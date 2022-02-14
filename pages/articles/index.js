@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Head from "next/head";
-import { Navbar, Footer, LayoutArticle } from "../../Components/index";
+import { Navbar, Footer, LayoutArticle } from "../../components/index";
 import { data } from "./data";
 
 export default function Articles() {

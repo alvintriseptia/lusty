@@ -5,7 +5,7 @@ import {
 	Footer,
 	HeroTemplate,
 	LayoutService,
-} from "../Components/index";
+} from "../components/index";
 
 export default function Service() {
 	const data = [

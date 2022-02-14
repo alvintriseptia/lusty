@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { motion } from "framer-motion";
-import { Footer, LayoutPost, Navbar } from "../../Components";
+import { Footer, LayoutPost, Navbar } from "../../components";
 import Head from "next/head";
 import { data } from "./data";
 
