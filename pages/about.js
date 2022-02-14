@@ -2,23 +2,18 @@ import { motion } from "framer-motion";
 import Head from "next/head";
 import {
 	Navbar,
-	Hero,
-	Customer,
-	Service,
-	Adventage,
-	GetStarted,
-	Menu,
-	Testimonial,
-	FAQ,
-	Article,
 	Footer,
+	HeroTemplate,
+	Background,
+	Founder,
+	Reference,
 } from "../Components/index";
 
-export default function Home() {
+export default function About() {
 	return (
 		<>
 			<Head>
-				<title>Lusty | Katering Sehat</title>
+				<title>Lusty | Tentang Kami</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<>
@@ -28,18 +23,18 @@ export default function Home() {
 					exit={{ opacity: 0 }}
 					transition={{ duration: 0.5 }}
 				>
-					<div className="bg-gradient-to-br from-yellow to-light">
+					<div className="bg-gradient-to-br from-light-red/30 to-black-red ">
 						<Navbar />
-						<Hero />
+						<HeroTemplate
+							title="Lusty"
+							description="Penyedia jasa makanan sehat dan bergizi 
+yang bisa diatur sesuai kebutuhanmu.
+"
+						/>
 					</div>
-					<Customer />
-					<Service />
-					<Adventage />
-					<GetStarted />
-					<Menu />
-					<Testimonial />
-					<FAQ />
-					<Article />
+					<Background />
+					<Founder />
+					<Reference />
 					<Footer />
 				</motion.main>
 			</>
