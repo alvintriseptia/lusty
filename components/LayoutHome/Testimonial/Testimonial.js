@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
-import { Swiper, SwiperSlide } from "swiper/react";
 import React, { useRef } from "react";
 import SectionTitle from "../../SectionTitle";
 import Image from "next/image";
 import "swiper/css";
+import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation } from "swiper";
 SwiperCore.use([Navigation]);
 

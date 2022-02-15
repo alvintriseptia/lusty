@@ -29,10 +29,10 @@ const Navbar = () => {
 
 	return (
 		<nav
-			className={`fixed z-40 w-full top-0 left-0 py-10 ${scrollBackground} transition-all`}
+			className={`fixed z-50 w-full top-0 left-0 px-0 p-10 ${scrollBackground} transition-all`}
 		>
 			<div className="container mx-auto px-4 lg:px-20 xl:px-[120px]">
-				<div className="grid grid-cols-12">
+				<div className="grid grid-cols-12 items-center">
 					<div className="col-span-3">
 						<Logo />
 					</div>
@@ -50,9 +50,9 @@ const Navbar = () => {
 								: "translate-x-full xl:translate-x-0"
 						} transition-transform col-span-12 xl:col-span-9 xl:mt-0 fixed xl:static bg-light xl:bg-transparent  w-80 xl:w-auto h-full xl:h-auto right-0 top-0 pl-6 pt-32 xl:p-0 z-40`}
 					>
-						<div className="grid grid-cols-9 text-2xl xl:text-base ">
+						<div className="grid grid-cols-9 text-2xl xl:text-base">
 							<NavList list={navLinks} />
-							<ButtonLink name="Pesan Sekarang" href="pesan" />
+							<ButtonLink name="Pesan Sekarang" href="/menu" />
 						</div>
 					</div>
 				</div>

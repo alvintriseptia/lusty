@@ -27,14 +27,14 @@ const Founder = () => {
 							<h3 className="font-semibold">Alvin Triseptia Mairis</h3>
 							<span>Founder &#38; CEO</span>
 						</div>
-						<p className="mt-8">
+						<q className="mt-8 inline-block">
 							Lusty didirikan tidak hanya untuk menyediakan berbagai macam menu
 							makanan sehat yang dapat dinikmati para konsumer, tetapi juga
 							edukasi mengenai kesehatan makanan itu sendiri. Kedepannya
 							diharapkan masyarakat Indonesia bisa lebih sadar mengenai pola
 							makan yang sedang mereka lakukan dan menjaga kesehatannya yang
 							dimulai dari makanan yang dikonsumsi tiap harinya.
-						</p>
+						</q>
 					</div>
 				</div>
 			</div>

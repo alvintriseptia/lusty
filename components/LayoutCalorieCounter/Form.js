@@ -36,7 +36,7 @@ const Form = ({ setHasil }) => {
 			ref={formEl}
 			onSubmit={handleSubmit}
 		>
-			<div className="flex justify-between items-center">
+			<div className="flex flex-col gap-y-4 lg:flex-row lg:gap-y-0 lg:justify-between lg:items-center">
 				<label htmlFor="jeniskelamin" className="font-semibold">
 					Jenis Kelamin:
 				</label>
@@ -63,7 +63,7 @@ const Form = ({ setHasil }) => {
 					</div>
 				</div>
 			</div>
-			<div className="flex justify-between items-center">
+			<div className="flex flex-col gap-y-4 lg:flex-row lg:gap-y-0 lg:justify-between lg:items-center">
 				<label htmlFor="usia" className="font-semibold">
 					Usia:
 				</label>
@@ -76,7 +76,7 @@ const Form = ({ setHasil }) => {
 					min={14}
 				/>
 			</div>
-			<div className="flex justify-between items-center">
+			<div className="flex flex-col gap-y-4 lg:flex-row lg:gap-y-0 lg:justify-between lg:items-center">
 				<label htmlFor="berat" className="font-semibold">
 					Berat Badan:
 				</label>
@@ -90,7 +90,7 @@ const Form = ({ setHasil }) => {
 					min={30}
 				/>
 			</div>
-			<div className="flex justify-between items-center">
+			<div className="flex flex-col gap-y-4 lg:flex-row lg:gap-y-0 lg:justify-between lg:items-center">
 				<label htmlFor="tinggi" className="font-semibold">
 					Tinggi Badan:
 				</label>
@@ -104,9 +104,9 @@ const Form = ({ setHasil }) => {
 					min={140}
 				/>
 			</div>
-			<div className="flex justify-between items-center">
+			<div className="flex flex-col gap-y-4 lg:flex-row lg:gap-y-0 lg:justify-between lg:items-center">
 				<label htmlFor="aktivitas" className="font-semibold">
-					Jenis Olahraga:
+					Aktivitas Harian:
 				</label>
 				<select
 					className="px-4 py-2 shadow-md border-2 border-dark rounded-lg"

@@ -32,3 +32,6 @@ export { default as LayoutPost } from "./LayoutPost";
 
 // CONTACT
 export { default as LayoutContact } from "./LayoutContact";
+
+// MENU
+export { default as LayoutMenu } from "./LayoutMenu";
