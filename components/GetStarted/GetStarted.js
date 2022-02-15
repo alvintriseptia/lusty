@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const GetStarted = () => {
@@ -16,12 +17,11 @@ const GetStarted = () => {
 						Dapatkan menu makanan harianmu dengan harga yang murah
 					</p>
 				</div>
-				<a
-					href="#menu"
-					className="px-8 py-4 rounded-2xl font-semibold transition-background-image bg-gradient-to-br from-light-red to-dark-red hover:from-dark-blue"
-				>
-					Pesan Sekarang
-				</a>
+				<Link href="/menu">
+					<a className="px-8 py-4 rounded-2xl font-semibold transition-background-image bg-gradient-to-br from-light-red to-dark-red hover:from-dark-blue">
+						Pesan Sekarang
+					</a>
+				</Link>
 			</div>
 		</div>
 	);

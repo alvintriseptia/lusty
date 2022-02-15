@@ -3,36 +3,11 @@ import ButtonLink from "./ButtonLink";
 import Hamburger from "./Hamburger";
 import Logo from "./Logo";
 import NavList from "./NavList";
+import { navLinks } from "../NavLinks";
 
 const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
 	const [scrollBackground, setScrollBackground] = useState("bg-transparent");
-	const navLinks = [
-		{
-			title: "Tentang Kami",
-			href: "about",
-		},
-		{
-			title: "Layanan",
-			href: "services",
-		},
-		{
-			title: "Konsultasi",
-			href: "consultation",
-		},
-		{
-			title: "Menu",
-			href: "menu",
-		},
-		{
-			title: "Artikel",
-			href: "articles",
-		},
-		{
-			title: "Kontak",
-			href: "contact",
-		},
-	];
 	const handleMenu = () => {
 		setIsOpen(!isOpen);
 	};

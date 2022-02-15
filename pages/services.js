@@ -10,6 +10,7 @@ import {
 export default function Service() {
 	const data = [
 		{
+			id: "kateringsehat",
 			title: "Katering Sehat",
 			titleImage: "eat",
 			titleAlt: "food",
@@ -20,6 +21,7 @@ export default function Service() {
 			ordering: 0,
 		},
 		{
+			id: "aturmenu",
 			title: "Atur Menu",
 			titleImage: "menu",
 			titleAlt: "menu",
@@ -30,6 +32,7 @@ export default function Service() {
 			ordering: 1,
 		},
 		{
+			id: "konsultasi",
 			title: "Konsultasi",
 			titleImage: "chat-gold",
 			titleAlt: "konsultasi",
@@ -59,10 +62,11 @@ export default function Service() {
 							title="Layanan Lusty"
 							description="Cari tau apa saja yang kami sediakan untuk memenuhi kebutuhan anda dalam menjaga kesehatan
 "
+							href="#kateringsehat"
 						/>
 					</div>
 					{data.map((item, index) => (
-						<LayoutService key={index} {...item} index={index} />
+						<LayoutService key={index} {...item} />
 					))}
 					<Footer />
 				</motion.main>

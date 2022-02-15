@@ -1,4 +1,6 @@
-const HeroTemplate = ({ title, description }) => {
+import Link from "next/link";
+
+const HeroTemplate = ({ title, description, href }) => {
 	return (
 		<header className="py-32 lg:py-48 h-screen">
 			<div className="container mx-auto px-4 lg:px-[120px] h-full">
@@ -7,7 +9,9 @@ const HeroTemplate = ({ title, description }) => {
 						{title}
 					</h1>
 					<p className="text-2xl lg:text-4xl leading-relaxed">{description}</p>
-					<a href="#start">Start</a>
+					<Link href={`${href}`}>
+						<a>Start</a>
+					</Link>
 				</div>
 			</div>
 		</header>

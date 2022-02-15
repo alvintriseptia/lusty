@@ -1,6 +1,9 @@
+import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import Logo from "../Navbar/Logo";
+import { navLinks } from "../NavLinks";
 
 const Footer = () => {
 	return (
@@ -37,21 +40,13 @@ const Footer = () => {
 				</div>
 				<div className="flex flex-wrap gap-y-10 justify-between mt-10">
 					<ul className="flex flex-col xl:flex-row gap-4">
-						<li>
-							<a href="#tentang">Tentang Kami</a>
-						</li>
-						<li>
-							<a href="#layanan">Layanan</a>
-						</li>
-						<li>
-							<a href="#menu">Menu</a>
-						</li>
-						<li>
-							<a href="#artikel">Artikel</a>
-						</li>
-						<li>
-							<a href="#kontak">Kontak</a>
-						</li>
+						{navLinks.map((link, index) => (
+							<li key={index}>
+								<Link href={`/${link.href}`}>
+									<a className="hover:underline">{link.title}</a>
+								</Link>
+							</li>
+						))}
 					</ul>
 					<div className="flex flex-col gap-y-4">
 						<span>

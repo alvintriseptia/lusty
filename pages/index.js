@@ -13,6 +13,7 @@ import {
 	Article,
 	Footer,
 } from "../components/index";
+import { data } from "../components/data";
 
 export default function Home() {
 	return (
@@ -39,7 +40,7 @@ export default function Home() {
 					<Menu />
 					<Testimonial />
 					<FAQ />
-					<Article />
+					<Article data={data} />
 					<Footer />
 				</motion.main>
 			</>

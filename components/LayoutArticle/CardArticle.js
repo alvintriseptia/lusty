@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const CardArticle = ({ id, title, date, article, imageName, imageAlt }) => {
@@ -11,18 +12,19 @@ const CardArticle = ({ id, title, date, article, imageName, imageAlt }) => {
 						<span className="text-sm font-light">{date}</span>
 					</div>
 					<p className="line-clamp-2">{article}</p>
-					<a className="underline font-medium" href={`/articles/${id}`}>
-						Baca artikel
-					</a>
+					<Link href={`/article/${id}`}>
+						<a className="underline font-medium">Baca artikel</a>
+					</Link>
 				</div>
 			</div>
-			<div className="col-span-12 lg:col-span-4">
+			<div className="hidden lg:block lg:col-span-4">
 				<div className="w-full h-full relative">
 					<Image
 						layout="fill"
 						src={`/assets/${imageName}`}
 						alt={imageAlt}
 						className="object-cover"
+						priority
 					/>
 				</div>
 			</div>

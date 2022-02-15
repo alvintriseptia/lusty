@@ -30,6 +30,7 @@ export default function About() {
 							description="Penyedia jasa makanan sehat dan bergizi 
 yang bisa diatur sesuai kebutuhanmu.
 "
+							href="#tentang"
 						/>
 					</div>
 					<Background />

@@ -4,16 +4,14 @@ import {
 	Navbar,
 	Footer,
 	HeroTemplate,
-	Background,
-	Founder,
-	Reference,
-} from "../components/index";
+	LayoutConsultation,
+} from "../../components/index";
 
-export default function Menu() {
+export default function Consultation() {
 	return (
 		<>
 			<Head>
-				<title>Lusty | Menu</title>
+				<title>Lusty | Konsultasi</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<>
@@ -23,19 +21,16 @@ export default function Menu() {
 					exit={{ opacity: 0 }}
 					transition={{ duration: 0.5 }}
 				>
-					<div className="bg-gradient-to-br from-light-red/30 to-black-red ">
+					<div className="bg-gradient-to-br from-yellow/20 to-black-yellow">
 						<Navbar />
 						<HeroTemplate
-							title="Menu Lusty"
-							description="Penyedia jasa makanan sehat dan bergizi 
-yang bisa diatur sesuai kebutuhanmu.
+							title="Konsultasi Lusty"
+							description="Dapatkan layanan yang dapat membantu mengetahui kebutuhan makanan Anda
 "
-							href="#menu"
+							href="#konsultasi"
 						/>
 					</div>
-					<Background />
-					<Founder />
-					<Reference />
+					<LayoutConsultation />
 					<Footer />
 				</motion.main>
 			</>

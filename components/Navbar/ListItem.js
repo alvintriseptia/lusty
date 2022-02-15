@@ -8,10 +8,11 @@ const ListItem = ({ title, href }) => {
 		<Link href={`/${href}`}>
 			<a
 				className={`${
-					router.pathname === `/${href}` ? "before:w-1/2 font-semibold" : ""
+					router.pathname === `/${href}` ? "before:w-[75%] font-semibold" : ""
 				} relative before:absolute before:-bottom-1 before:rounded before:content-[''] before:w-0 before:transition-width before:hover:w-full before:ease-in-out before:h-1 before:bg-darkest-blue`}
 			>
 				{title}
+				<div className=""></div>
 			</a>
 		</Link>
 	);
