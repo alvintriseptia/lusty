@@ -3,7 +3,7 @@ import ButtonLink from "./ButtonLink";
 import Hamburger from "./Hamburger";
 import Logo from "./Logo";
 import NavList from "./NavList";
-import { navLinks } from "../NavLinks";
+import { navLinks } from "../navLinks";
 
 const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
