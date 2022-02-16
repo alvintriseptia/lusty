@@ -207,6 +207,7 @@ const LayoutMenu = () => {
 													key={index}
 													menu={item}
 													setMenuChoosed={setMenuChoosed}
+													setLookMenu={setLookMenu}
 													menuChoosed={menuChoosed}
 													disabledMenu={true}
 												/>
