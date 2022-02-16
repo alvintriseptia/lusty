@@ -5,7 +5,7 @@ import React from "react";
 const LayoutConsultation = () => {
 	return (
 		<section id="konsultasi" className="py-32 my-[120px]">
-			<div className="container mx-auto px-4 xl:px-[120px]">
+			<div className="container mx-auto px-4 lg:px-0 max-w-screen-xl">
 				<div className="grid grid-cols-12 lg:gap-8 gap-y-20">
 					<div className="relative col-span-12 lg:col-span-6">
 						<div className="w-24 h-24 lg:w-36 lg:h-36 rounded-full bg-gradient-to-br from-dark-blue to-purple absolute -top-10 left-0 lg:-left-10 flex justify-center items-center">

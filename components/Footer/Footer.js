@@ -7,7 +7,7 @@ import { navLinks } from "../navLinks";
 const Footer = () => {
 	return (
 		<footer className="w-full bg-gradient-to-br from-dark-blue to-dark-red pt-16 pb-4 text-light mt-[160px]">
-			<div className="container mx-auto px-4 lg:px-[120px]">
+			<div className="container mx-auto px-4 lg:px-0 max-w-screen-xl">
 				<div className="flex flex-wrap gap-y-10 justify-between">
 					<Logo />
 					<div className="flex gap-14 items-center">

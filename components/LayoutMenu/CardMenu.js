@@ -1,10 +1,29 @@
 import Image from "next/image";
-import React from "react";
+import Link from "next/link";
+import { menuList } from "../menuList";
 
-const CardMenu = ({ menu }) => {
-	console.log(menu);
+const CardMenu = ({
+	menu,
+	setMenuChoosed,
+	menuChoosed,
+	setLookMenu,
+	disabledMenu,
+}) => {
+	const handleClickMenu = (el) => {
+		setMenuChoosed([...menuChoosed, el]);
+	};
+
+	const handleClickLook = (id) => {
+		const lookMenu = menuList.find((e) => e.id === id);
+		setLookMenu(lookMenu);
+	};
+
 	return (
-		<div className="py-4 px-5 w-[320px] bg-light-blue rounded-card">
+		<div
+			className={`py-4 px-5 w-[320px] ${
+				menuChoosed.includes(menu) ? "bg-dark-blue/50" : "bg-light-blue"
+			} rounded-card`}
+		>
 			<div className="w-full h-[300px] bg-gradient-to-b rounded-card from-dark-blue to-purple flex justify-center items-center">
 				<Image
 					width={200}
@@ -33,18 +52,22 @@ const CardMenu = ({ menu }) => {
 				</li>
 			</ul>
 			<div className="flex justify-center flex-wrap gap-x-4">
-				<a
-					href={`/menu/${menu.id}`}
-					className="px-4 py-2 rounded-2xl font-semibold transition-background-image bg-gradient-to-br from-light-red to-dark-red hover:from-dark-blue"
+				<button
+					onClick={() => handleClickMenu(menu)}
+					className={`px-4 py-2 rounded-2xl font-semibold transition-background-image bg-gradient-to-br from-light-red to-dark-red hover:from-dark-blue ${
+						disabledMenu ? "opacity-30 pointer-events-none" : ""
+					}`}
 				>
 					Pilih Menu
-				</a>
-				<a
-					href={`/menu/${menu.id}`}
-					className="px-4 py-2 rounded-2xl font-semibold transition-background-image border-2 border-dark-red hover:bg-dark-red/40"
-				>
-					Lihat Menu
-				</a>
+				</button>
+				<Link href="/menu#detail">
+					<a
+						onClick={() => handleClickLook(menu.id)}
+						className="px-4 py-2 rounded-2xl font-semibold border-2 border-dark-red hover:bg-dark-red/40"
+					>
+						Lihat Menu
+					</a>
+				</Link>
 			</div>
 		</div>
 	);

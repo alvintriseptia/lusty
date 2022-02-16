@@ -5,7 +5,7 @@ import React from "react";
 const Hero = () => {
 	return (
 		<header className="pb-32 pt-40 lg:mt-32 lg:pt-52 bg-gradient-to-br from-light to-yellow/30 lg:bg-[url('/assets/bgMenu.png')] lg:bg-no-repeat lg:bg-center lg:bg-cover lg:bg-fixed">
-			<div className="container mx-auto px-4 lg:px-[120px]">
+			<div className="container mx-auto px-4 lg:px-0 max-w-screen-xl">
 				<div className="grid grid-cols-12">
 					<div className="col-span-12 lg:col-span-6">
 						<h1 className="text-5xl lg:text-7xl font-bold">Menu Lusty</h1>

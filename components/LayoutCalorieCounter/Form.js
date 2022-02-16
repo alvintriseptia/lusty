@@ -10,7 +10,6 @@ const Form = ({ setHasil }) => {
 		formData.forEach((value, key) => {
 			data[key] = value;
 		});
-		console.log(data);
 		if (data.jeniskelamin === "lakilaki") {
 			const kalori =
 				parseInt(data.berat) * 10 +

@@ -15,7 +15,7 @@ const Article = ({ data }) => {
 	const navigationNextRef = useRef(null);
 
 	return (
-		<div className="container mx-auto px-4 lg:px-[120px] my-[160px]">
+		<div className="container mx-auto px-4 lg:px-0 max-w-screen-xl my-[160px]">
 			<SectionTitle title="Artikel" imageName="article" imageAlt="artikel" />
 			<Swiper
 				className="mt-12 w-full"
@@ -43,7 +43,6 @@ const Article = ({ data }) => {
 				}}
 				onSlideChange={(swiper) => {
 					let realIndex = swiper.realIndex;
-					console.log(screen.width);
 					if (realIndex === 0) {
 						setLeftClick(false);
 					} else if (screen.width < 578 && realIndex === 5) {

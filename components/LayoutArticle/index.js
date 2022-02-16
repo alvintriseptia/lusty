@@ -3,8 +3,8 @@ import CardArticle from "./CardArticle";
 
 const LayoutArticle = ({ data }) => {
 	return (
-		<section className="py-32 ">
-			<div className="container mx-auto px-4 xl:px-[120px]">
+		<section className="py-40">
+			<div className="container mx-auto px-4 lg:px-0 max-w-screen-xl">
 				<h1 className="text-4xl lg:text-7xl text-center font-bold mb-12">
 					Artikel
 				</h1>

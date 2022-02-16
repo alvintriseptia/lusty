@@ -10,8 +10,8 @@ const LayoutCalorieCounter = () => {
 	useEffect(() => {}, [hasil]);
 
 	return (
-		<section className="my-[120px]">
-			<div className="container mx-auto px-4 xl:px-[120px]">
+		<section className="my-40">
+			<div className="container mx-auto px-4 lg:px-0 max-w-screen-xl">
 				<Link href="/consultation">
 					<a className="text-sm font-semibold mb-12">
 						&#8592;{" "}
@@ -60,7 +60,7 @@ const LayoutCalorieCounter = () => {
 							pada tahun 1990:
 						</p>
 						<div className="w-full py-4 px-8 shadow-md font-semibold bg-light">
-							<p>
+							<p className="mb-4">
 								Laki-Laki: BMR = (10 × berat(kg)) + (6.25 × tinggi(cm)) - (5 ×
 								usia(tahun)) + 5
 							</p>

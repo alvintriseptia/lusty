@@ -14,7 +14,7 @@ const LayoutService = ({
 }) => {
 	return (
 		<section id={`${id}`} className="pt-32 my-[120px]">
-			<div className="container mx-auto px-4 xl:px-[120px]">
+			<div className="container mx-auto px-4 lg:px-0 max-w-screen-xl">
 				<div className="grid grid-cols-12 gap-y-10 lg:gap-10">
 					<div
 						className={`col-span-12 mb-12 lg:mb-0 text-center lg:text-left lg:col-span-6 ${
