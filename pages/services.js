@@ -47,7 +47,7 @@ export default function Service() {
 		<>
 			<Head>
 				<title>Lusty | Layanan</title>
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" href="/assets/logo-mobile.png" />
 			</Head>
 			<>
 				<motion.main

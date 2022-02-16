@@ -31,7 +31,7 @@ const Service = () => {
 
 	return (
 		<div className="my-[120px]">
-			<div className="container mx-auto px-4 lg:px-0 max-w-screen-xl">
+			<div className="container mx-auto px-4  max-w-screen-xl">
 				<SectionTitle
 					title="Layanan Lusty"
 					imageName="service"

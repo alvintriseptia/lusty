@@ -33,7 +33,7 @@ const Menu = () => {
 		},
 	];
 	return (
-		<div className="container mx-auto px-4 lg:px-0 max-w-screen-xl mt-10">
+		<div className="container mx-auto px-4  max-w-screen-xl mt-10">
 			<div className="grid grid-cols-12">
 				<div className="col-span-12 lg:col-span-6">
 					<SectionTitle imageName="menu" imageAlt="menu" title="Menu Lusty" />

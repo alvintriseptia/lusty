@@ -5,7 +5,7 @@ import SectionTitle from "../../SectionTitle";
 const Founder = () => {
 	return (
 		<section>
-			<div className="container mx-auto px-4 lg:px-0 max-w-screen-xl my-[160px]">
+			<div className="container mx-auto px-4  max-w-screen-xl my-[160px]">
 				<div className="grid grid-cols-12">
 					<div className="col-span-12 lg:col-span-6 m-auto">
 						<div className="min-w-[300px] max-w-[400px] h-[400px] rounded-card relative bg-gradient-to-br from-light-red to-dark-red/20">

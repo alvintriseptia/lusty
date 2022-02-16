@@ -5,7 +5,7 @@ import Link from "next/link";
 const Hero = () => {
 	return (
 		<header className="py-32 lg:py-48">
-			<div className="container mx-auto px-4 lg:px-0 max-w-screen-xl">
+			<div className="container mx-auto px-4  max-w-screen-xl">
 				<div className="grid grid-cols-12">
 					<div className="col-span-12 lg:col-span-7">
 						<h1 className="text-5xl lg:text-7xl font-bold">

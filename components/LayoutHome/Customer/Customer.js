@@ -4,7 +4,7 @@ import Image from "next/image";
 const Customer = () => {
 	return (
 		<div className="w-full py-8 bg-gradient-to-r from-light via-light-blue/40 to-light">
-			<div className="container mx-auto px-4 lg:px-0 max-w-screen-xl">
+			<div className="container mx-auto px-4  max-w-screen-xl">
 				<div className="grid grid-cols-12">
 					<div className="col-span-12 xl:col-span-7 mx-auto text-center">
 						<h2 className="text-2xl mb-5">

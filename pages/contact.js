@@ -7,7 +7,7 @@ export default function Contact() {
 		<>
 			<Head>
 				<title>Lusty | Kontak</title>
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" href="/assets/logo-mobile.png" />
 			</Head>
 			<>
 				<motion.main

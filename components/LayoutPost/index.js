@@ -5,7 +5,7 @@ import React from "react";
 const LayoutPost = ({ data }) => {
 	return (
 		<section className="pt-40">
-			<div className="container mx-auto px-4 lg:px-0 max-w-screen-xl">
+			<div className="container mx-auto px-4  max-w-screen-xl">
 				<Link href="/article">
 					<a className="text-sm font-semibold mb-12">
 						&#8592;{" "}

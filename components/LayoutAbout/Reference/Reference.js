@@ -72,7 +72,7 @@ const Reference = () => {
 	];
 	return (
 		<section>
-			<div className="container mx-auto px-4 lg:px-0 max-w-screen-xl my-[160px]">
+			<div className="container mx-auto px-4  max-w-screen-xl my-[160px]">
 				<SectionTitle
 					title="Referensi Pembuatan Website Lusty"
 					imageName="reference"

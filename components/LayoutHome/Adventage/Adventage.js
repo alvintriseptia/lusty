@@ -33,7 +33,7 @@ const Adventage = () => {
 		},
 	];
 	return (
-		<section className="container mx-auto px-4 lg:px-0 max-w-screen-xl mt-10 ">
+		<section className="container mx-auto px-4  max-w-screen-xl mt-10 ">
 			<div className="grid grid-cols-12 lg:gap-10">
 				<div className="col-span-12 lg:col-span-4 2xl:col-span-5">
 					<div className="relative w-full min-h-[300px] h-full border-[20px] border-light  bg-gradient-to-br from-light-blue to-dark-blue rounded-card overflow-hidden">

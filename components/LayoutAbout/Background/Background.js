@@ -5,7 +5,7 @@ import SectionTitle from "../../SectionTitle";
 const Background = () => {
 	return (
 		<section id="tentang" className="py-32 my-[120px]">
-			<div className="container mx-auto px-4 lg:px-0 max-w-screen-xl">
+			<div className="container mx-auto px-4  max-w-screen-xl">
 				<div className="grid grid-cols-12">
 					<div className="col-span-12 lg:col-span-6 order-2 mt-12 lg:mt-0 lg:order-1 text-center lg:text-left">
 						<SectionTitle

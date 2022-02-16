@@ -20,7 +20,7 @@ export default function Home() {
 		<>
 			<Head>
 				<title>Lusty | Katering Sehat</title>
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" href="/assets/logo-mobile.png" />
 			</Head>
 			<>
 				<motion.main

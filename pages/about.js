@@ -14,7 +14,7 @@ export default function About() {
 		<>
 			<Head>
 				<title>Lusty | Tentang Kami</title>
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" href="/assets/logo-mobile.png" />
 			</Head>
 			<>
 				<motion.main

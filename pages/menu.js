@@ -7,7 +7,7 @@ export default function Menu() {
 		<>
 			<Head>
 				<title>Lusty | Menu</title>
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" href="/assets/logo-mobile.png" />
 			</Head>
 			<>
 				<motion.main

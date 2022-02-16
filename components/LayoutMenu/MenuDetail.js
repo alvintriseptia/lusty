@@ -3,7 +3,7 @@ import React from "react";
 
 const MenuDetail = ({ lookMenu }) => {
 	return (
-		<section id="detail" className="pt-40">
+		<section id="detail" className="pt-36">
 			<div className="bg-light-red/30 w-full h-full rounded-3xl">
 				<div className="grid grid-cols-12 lg:gap-x-10">
 					<div className="col-span-12 lg:col-span-5">

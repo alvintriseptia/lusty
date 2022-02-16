@@ -7,7 +7,7 @@ import { navLinks } from "../navLinks";
 const Footer = () => {
 	return (
 		<footer className="w-full bg-gradient-to-br from-dark-blue to-dark-red pt-16 pb-4 text-light mt-[160px]">
-			<div className="container mx-auto px-4 lg:px-0 max-w-screen-xl">
+			<div className="container mx-auto px-4  max-w-screen-xl">
 				<div className="flex flex-wrap gap-y-10 justify-between">
 					<Logo />
 					<div className="flex gap-14 items-center">
@@ -37,7 +37,7 @@ const Footer = () => {
 						/>
 					</div>
 				</div>
-				<div className="flex flex-wrap gap-y-10 justify-between mt-10">
+				<div className="flex flex-col lg:flex-row gap-y-10 justify-between mt-10">
 					<ul className="flex flex-col xl:flex-row gap-4">
 						{navLinks.map((link, index) => (
 							<li key={index}>
@@ -48,12 +48,14 @@ const Footer = () => {
 						))}
 					</ul>
 					<div className="flex flex-col gap-y-4">
-						<span>
-							Email: <a href="#email">lustycatering@gmail.com</a>
-						</span>
-						<span>
-							Telepon: <a href="#tel">081234567890</a>
-						</span>
+						<div>
+							<span className="w-20 inline-block">Email:</span>
+							<a href="#email">lustycatering@gmail.com</a>
+						</div>
+						<div>
+							<span className="w-20 inline-block">Telepon:</span>
+							<a href="#tel">+6281234567890</a>
+						</div>
 					</div>
 				</div>
 				<strong className="text-sm mt-24 inline-block">
