@@ -28,7 +28,7 @@ const ReferenceCard = ({
 						duration: 0.5,
 					},
 				}}
-				className="px-4 py-2 bg-light min-h-[100px] w-[400px] shadow-lg rounded-xl cursor-pointer"
+				className="px-4 py-2 bg-light min-h-[100px] w-[380px] shadow-lg rounded-xl cursor-pointer"
 			>
 				<div className="flex gap-x-2 items-center">
 					<Image
