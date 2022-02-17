@@ -13,7 +13,7 @@ import { menuList } from "../menuList";
 import { packageList } from "../packageList";
 import OrderDetail from "./OrderDetail";
 import MenuDetail from "./MenuDetail";
-import Package from "./Package";
+import Package from "../Package/Package";
 
 const LayoutMenu = () => {
 	const navigationPrevRef = useRef(null);
@@ -49,7 +49,7 @@ const LayoutMenu = () => {
 		}, 0.001);
 	};
 
-	const handleClickJenis = (e) => {
+	const handleClickWaktu = (e) => {
 		setClicked(false);
 		setWaktu(e);
 		setTimeout(() => {
@@ -162,7 +162,7 @@ const LayoutMenu = () => {
 									{waktuList.map((item, index) => (
 										<motion.li
 											key={index}
-											onClick={() => handleClickJenis(item)}
+											onClick={() => handleClickWaktu(item)}
 											whileHover={{
 												scale: 1.1,
 												backgroundColor: "#5da2d5",

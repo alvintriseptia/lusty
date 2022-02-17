@@ -7,7 +7,7 @@ export default function CalorieCounter() {
 		<>
 			<Head>
 				<title>Lusty | Konsultasi - Hitung Kalori</title>
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" href="/assets/logo-mobile.png" />
 			</Head>
 			<>
 				<motion.main

@@ -5,13 +5,13 @@ const ScrollToDown = () => {
 	return (
 		<div
 			className="
-    h-14 w-9 border-2 border-dark rounded-full cursor-pointer relative
+    h-14 w-9 border-2 border-light rounded-full cursor-pointer relative
     "
 		>
 			<motion.div
 				animate={{ y: [0, 25, 0], opacity: [1, 0.5, 0] }}
 				transition={{ repeat: Infinity, duration: 1, times: [0, 0.5, 1] }}
-				className="absolute top-1 left-1.5 -translate-y-full w-5 h-full"
+				className="absolute top-1 left-1.5 -translate-y-full w-5 h-full fill-light"
 			>
 				<svg
 					version="1.1"
